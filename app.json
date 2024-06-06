@@ -1,0 +1,59 @@
+{
+  "expo": {
+    "name": "Rave Me Away",
+    "slug": "Rave-Me-Away",
+    "version": "1.0.0",
+    "jsEngine": "hermes",
+    "orientation": "portrait",
+    "icon": "./app/assets/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+
+    "splash": {
+      "image": "./app/assets/images/Rave_Me_Away_single_logo.webp",
+      "resizeMode": "contain",
+      "backgroundColor": "#8C52FF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.navom1.RaveMeAway",
+      "jsEngine": "jsc",
+      "config": {
+        "usesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "googleServicesFile": "./app/android/app/google-services.json",
+      "package": "com.navom1.RaveMeAway"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./app/assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router"
+
+
+    ],
+    "experiments": {
+      "typedRoutes": true,
+      "tsconfigPaths": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "8b9d57be-3c5f-4433-929c-16dbc21a3102"
+      }
+    }
+  }
+}

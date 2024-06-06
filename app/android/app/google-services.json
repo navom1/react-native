@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1070780101825",
+    "project_id": "rave-me-away",
+    "storage_bucket": "rave-me-away.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1070780101825:android:34cd36de90035d6c895040",
+        "android_client_info": {
+          "package_name": "com.navom1.ravemeaway"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYGCRcA9IL4eUahxrBnZIVOYWDi8NWu7k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

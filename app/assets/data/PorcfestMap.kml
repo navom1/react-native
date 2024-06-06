@@ -1,0 +1,1730 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="addresses" id="addresses">
+	<SimpleField name="osm_id" type="float"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="addr:unit" type="string"></SimpleField>
+	<SimpleField name="reference" type="string"></SimpleField>
+</Schema>
+<Folder><name>addresses</name>
+  <Placemark>
+	<name>Media Room</name>
+	<ExtendedData><SchemaData schemaUrl="#addresses">
+		<SimpleData name="osm_id">11471939560</SimpleData>
+		<SimpleData name="amenity">events_venue</SimpleData>
+		<SimpleData name="addr:unit">upstairs</SimpleData>
+		<SimpleData name="reference">LB101</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.5448564,44.467005</coordinates></Point>
+  </Placemark>
+</Folder>
+<Folder><name>buildings</name>
+  <Placemark>
+	<name>MH #17</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1234996158</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #17</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5486829,44.4664205 -71.5485668,44.4663016 -71.5483161,44.4664297 -71.5483878,44.4665042 -71.5484075,44.4665246 -71.5486829,44.4664205</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #24</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1220530512</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="ref">PM24</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #24</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.549224,44.466567 -71.5491511,44.4664999 -71.5488718,44.4665858 -71.5489686,44.4666928 -71.5491222,44.4666171 -71.549224,44.466567</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #21</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1234996156</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #21</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5488718,44.4665858 -71.5487688,44.4664878 -71.5485048,44.4666304 -71.5485923,44.4667164 -71.5488718,44.4665858</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #19</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1234996157</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #19</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5487688,44.4664878 -71.5486829,44.4664205 -71.5484075,44.4665246 -71.5484798,44.4666032 -71.5485048,44.4666304 -71.5487688,44.4664878</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #23</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1234996155</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #23</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5489686,44.4666928 -71.5488718,44.4665858 -71.5485923,44.4667164 -71.5486979,44.466826 -71.5489054,44.4667239 -71.5489686,44.4666928</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #22</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1234996160</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #22</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5486979,44.466826 -71.5485923,44.4667164 -71.5482601,44.4668258 -71.548382,44.4669755 -71.5485372,44.4669021 -71.5486979,44.466826</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #15</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1234996159</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #15</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5485668,44.4663016 -71.5484083,44.4661856 -71.548167,44.466275 -71.5482891,44.4664017 -71.5483161,44.4664297 -71.5485668,44.4663016</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #14</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1234996164</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #14</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Camground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5482891,44.4664017 -71.548167,44.466275 -71.5479195,44.4663628 -71.5480401,44.4665119 -71.5482891,44.4664017</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #18</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1234996162</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #18</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5484798,44.4666032 -71.5483878,44.4665042 -71.5481152,44.4666057 -71.548193,44.4667206 -71.5484798,44.4666032</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #16</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1234996163</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #16</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5483878,44.4665042 -71.5482891,44.4664017 -71.5480401,44.4665119 -71.5481152,44.4666057 -71.5483878,44.4665042</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #20</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1234996161</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #20</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5485923,44.4667164 -71.5484798,44.4666032 -71.548193,44.4667206 -71.5482601,44.4668258 -71.5485923,44.4667164</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #9</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1234996165</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #9</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5480401,44.4665119 -71.5479195,44.4663628 -71.5476557,44.4664408 -71.5476962,44.4666192 -71.5480401,44.4665119</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #`10</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1234996166</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #10</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5481152,44.4666057 -71.5480401,44.4665119 -71.5476962,44.4666192 -71.547778,44.4667274 -71.5481152,44.4666057</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #11</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1234996167</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #11</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.548193,44.4667206 -71.5481152,44.4666057 -71.547778,44.4667274 -71.5478558,44.4668236 -71.548193,44.4667206</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #12</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1234996168</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #12</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5482601,44.4668258 -71.548193,44.4667206 -71.5478558,44.4668236 -71.5479534,44.4669091 -71.5482601,44.4668258</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #5</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1226602017</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #5</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5476557,44.4664408 -71.5475039,44.4664103 -71.547294,44.466445 -71.5472957,44.4666567 -71.5476523,44.466513 -71.5476557,44.4664408</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #6</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1226602018</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #6</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5476962,44.4666192 -71.5476523,44.466513 -71.5472957,44.4666567 -71.5474137,44.4667348 -71.5476962,44.4666192</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #7</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1226602019</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #7</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.547778,44.4667274 -71.5476962,44.4666192 -71.5474137,44.4667348 -71.5475146,44.4668358 -71.5476463,44.4667816 -71.547778,44.4667274</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #8</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1226602020</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #8</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5478558,44.4668236 -71.547778,44.4667274 -71.5476463,44.4667816 -71.5475146,44.4668358 -71.5475854,44.4669246 -71.5478558,44.4668236</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #13</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1226602021</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #13</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5479534,44.4669091 -71.5478558,44.4668236 -71.5475854,44.4669246 -71.5476026,44.4670793 -71.5476952,44.4670344 -71.5478386,44.4669648 -71.5479534,44.4669091</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">290911140</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="amenity">toilets</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="toilets:disposal">flush</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5473702,44.4668859 -71.5473084,44.4668352 -71.5472025,44.4669009 -71.5472643,44.4669516 -71.5473702,44.4668859</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #4</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1216871371</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #4</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5465387,44.46642 -71.5465023,44.4663886 -71.5463113,44.4664774 -71.5463488,44.4665141 -71.5465387,44.46642</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Green</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1216871364</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">Green</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5462705,44.4664659 -71.5462255,44.4664138 -71.546116,44.4664736 -71.5461697,44.4665256 -71.5462705,44.4664659</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #25</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1240804178</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #25</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5472249,44.4666826 -71.547094,44.466526 -71.546849,44.466625 -71.5470425,44.466719 -71.5472249,44.4666826</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #3</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1216871370</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #3</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5466567,44.4665486 -71.5466138,44.4664996 -71.5464207,44.4665976 -71.5464658,44.4666374 -71.5466567,44.4665486</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #2</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1216871369</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #2</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5467104,44.4666543 -71.5466653,44.4666099 -71.546455,44.4667278 -71.5465023,44.4667661 -71.5467104,44.4666543</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>MH #1</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1216871365</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">MH #1</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5466975,44.4667798 -71.5466417,44.4667339 -71.5464829,44.4668258 -71.5465409,44.4668656 -71.5466975,44.4667798</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Blue</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1216871368</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">Blue</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5462877,44.4666236 -71.5462405,44.4665654 -71.546131,44.4666221 -71.5461911,44.4666742 -71.5462877,44.4666236</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>White</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1216871367</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">White</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5462898,44.466763 -71.5462297,44.4667048 -71.5461267,44.4667645 -71.5461868,44.4668135 -71.5462898,44.466763</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Red</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">1216871366</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">residential</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:unit">Red</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5462791,44.4669008 -71.5462276,44.4668503 -71.5461267,44.4668977 -71.546189,44.4669483 -71.5462791,44.4669008</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">290911142</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="amenity">toilets</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="toilets:disposal">flush</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5452867,44.4669188 -71.5452151,44.4668435 -71.5451274,44.466886 -71.545199,44.4669613 -71.5452867,44.4669188</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Office</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">290911134</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5451945,44.4669645 -71.5451412,44.4669075 -71.5451145,44.4668789 -71.5450622,44.4668229 -71.545005,44.4668451 -71.5449828,44.466816 -71.5446916,44.4669419 -71.5447877,44.4670447 -71.5448312,44.467024 -71.5448418,44.4670354 -71.5448699,44.467022 -71.5448782,44.4670309 -71.5448439,44.4670473 -71.5448983,44.4671055 -71.5449735,44.4670697 -71.5451945,44.4669645</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Pavillion</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">290911136</SimpleData>
+		<SimpleData name="building">pavilion</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5436869,44.4670609 -71.5433727,44.4669845 -71.5433055,44.4671242 -71.5436113,44.4671976 -71.5436869,44.4670609</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">357021401</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="man_made">wastewater_plant</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5472434,44.468054 -71.547197,44.4680279 -71.5471186,44.4680987 -71.547165,44.4681249 -71.5472434,44.468054</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">357021402</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="amenity">toilets</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="toilets:disposal">flush</SimpleData>
+		<SimpleData name="male">yes</SimpleData>
+		<SimpleData name="female">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5462201,44.4685655 -71.5461641,44.4685163 -71.5460846,44.4685623 -71.5461407,44.4686116 -71.5462201,44.4685655</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Bingo Hall</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">290911137</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5458265,44.4675143 -71.5454988,44.4671997 -71.545367,44.4672696 -71.5456815,44.4675716 -71.5456947,44.4675843 -71.5458265,44.4675143</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Roger's Motel</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">290911131</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="tourism">hotel</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5450029,44.4676703 -71.5449704,44.4674242 -71.5449085,44.4674244 -71.5449085,44.4674101 -71.5448467,44.4674102 -71.5448754,44.4676211 -71.5448604,44.4676508 -71.5445812,44.4678543 -71.5446039,44.4678696 -71.5446176,44.4678603 -71.5446905,44.4679017 -71.544952,44.467708 -71.5450029,44.4676703</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Roger's Motel</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">290911133</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="tourism">hotel</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5457029,44.4679299 -71.5456401,44.4678569 -71.5450849,44.4681004 -71.5451477,44.4681734 -71.5455134,44.468013 -71.5457029,44.4679299</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">290911143</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5447609,44.4681551 -71.544724,44.4681419 -71.5447447,44.4681198 -71.5446962,44.4680983 -71.5446728,44.4680879 -71.544649,44.4681151 -71.544645,44.4681137 -71.5446234,44.4681446 -71.5447392,44.4681859 -71.5447609,44.4681551</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">290911139</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5446247,44.4682175 -71.5445916,44.4682028 -71.5445758,44.4682209 -71.544609,44.4682356 -71.5446247,44.4682175</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">399831843</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.544058,44.4686328 -71.5439771,44.468547 -71.5438766,44.4685952 -71.5438342,44.4685501 -71.5437636,44.468584 -71.5438312,44.4686557 -71.5438643,44.4686456 -71.5439421,44.4686885 -71.544058,44.4686328</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">399831840</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5437582,44.4685601 -71.5437356,44.4685361 -71.5436931,44.468491 -71.5435602,44.4685548 -71.5436143,44.4686122 -71.5436928,44.4685745 -71.5437038,44.4685862 -71.5437582,44.4685601</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">357021400</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5425923,44.4661725 -71.5425621,44.4661405 -71.5425121,44.4661645 -71.5425423,44.4661965 -71.5425923,44.4661725</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">357021399</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5429638,44.4665779 -71.5429156,44.4665267 -71.5428406,44.4665627 -71.5428888,44.4666139 -71.5429638,44.4665779</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#buildings">
+		<SimpleData name="osm_id">357021398</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5430566,44.4666918 -71.5430068,44.466639 -71.5428371,44.4667205 -71.5428868,44.4667733 -71.5430566,44.4666918</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+<Folder><name>roads</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">18843786</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5492174,44.465906 -71.5493022,44.4659951 -71.5493617,44.4660576 -71.5494296,44.4661289 -71.5495096,44.4662129 -71.5495905,44.4662979 -71.5496696,44.466381</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">18836731</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.549333,44.465568 -71.5494009,44.4656711 -71.5494175,44.4656964 -71.549489,44.465805 -71.5495466,44.4658715 -71.5496117,44.4659467 -71.5496899,44.466037 -71.5497588,44.4661166 -71.5497727,44.4661326 -71.5498172,44.466184 -71.5498363,44.466206 -71.5499038,44.466284 -71.5498217,44.466318 -71.5496696,44.466381 -71.549519,44.4664454 -71.5494404,44.466479 -71.5494198,44.4664874 -71.5492666,44.4665497 -71.549224,44.466567 -71.5491222,44.4666171 -71.5489686,44.4666928 -71.5489054,44.4667239 -71.5486979,44.466826 -71.5485372,44.4669021 -71.548382,44.4669755 -71.5481529,44.467084 -71.548041,44.4671452 -71.5478784,44.467234 -71.5477588,44.4673189 -71.5476286,44.4674112 -71.5474653,44.4675618 -71.5473615,44.4676575 -71.5472865,44.4677222 -71.5472109,44.4677873</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">18835747</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5462816,44.464688 -71.5465182,44.464555 -71.5468063,44.464408 -71.546859,44.464392 -71.546937,44.4644018 -71.5470128,44.4644218 -71.5470363,44.4644293 -71.5471645,44.4644699 -71.5472961,44.4645152 -71.5474557,44.4645702 -71.5476429,44.464643 -71.5478719,44.4647594 -71.547993,44.464821 -71.548009,44.4648322 -71.54819,44.464959 -71.5482414,44.4650055 -71.5482942,44.4650532 -71.5483916,44.4651413 -71.5485199,44.4652573 -71.5486351,44.4653615 -71.5487084,44.4654277 -71.5487987,44.4655094 -71.5489015,44.4656023 -71.5489901,44.4656825 -71.5490454,44.4657324 -71.549091,44.4657737 -71.549125,44.4658093 -71.5492174,44.465906 -71.549489,44.465805</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">18840189</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5494404,44.466479 -71.5493521,44.4663944 -71.5493311,44.4663743 -71.54928,44.4663254 -71.5492424,44.4662893 -71.5492059,44.4662544 -71.5491531,44.4662038 -71.5491229,44.4661748 -71.5490826,44.4661363 -71.5490534,44.4661083 -71.5490132,44.4660697 -71.5489362,44.465996 -71.5488358,44.4658986 -71.548808,44.4658716 -71.5487189,44.4657851 -71.5486351,44.4657038 -71.5485507,44.4656219 -71.5484646,44.4655383 -71.548421,44.465496 -71.5483771,44.4654571 -71.5482776,44.465369 -71.5481707,44.4652745 -71.5481404,44.4652476 -71.5480729,44.4651925 -71.5479926,44.4651269 -71.5479098,44.4650584 -71.547847,44.4650181 -71.5477614,44.464963 -71.5477128,44.4649317 -71.5476882,44.4649159 -71.5476323,44.4648898 -71.5474476,44.4648034 -71.5474208,44.4647909 -71.5473096,44.464755 -71.5471834,44.4647142 -71.5470048,44.4646565 -71.5469726,44.4646461 -71.5469097,44.464628 -71.546864,44.4646145 -71.5467486,44.4645806 -71.546659,44.4645611 -71.5465182,44.464555</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Silk Road</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">1226602022</SimpleData>
+		<SimpleData name="highway">track</SimpleData>
+		<SimpleData name="tracktype">grade3</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5477614,44.464963 -71.5475233,44.4650919 -71.5472953,44.4652302 -71.5470718,44.4653368</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">18840203</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.549224,44.466567 -71.5491511,44.4664999 -71.5491281,44.4664787 -71.5490476,44.4664045 -71.5489877,44.4663493 -71.5489606,44.4663243 -71.5488788,44.4662491 -71.5488101,44.4661858 -71.5487816,44.4661595 -71.5486996,44.466084 -71.5486184,44.466008 -71.5485888,44.4659803 -71.5485283,44.4659237 -71.5485076,44.4659043 -71.5484522,44.4658525 -71.5484305,44.4658322 -71.548348,44.465755 -71.5483303,44.4657385 -71.5482908,44.4657016 -71.5482403,44.4656511 -71.5482034,44.4656198 -71.5481595,44.4655788 -71.5480706,44.4654957 -71.5480437,44.4654705 -71.5479534,44.4654003 -71.547875,44.4653393 -71.547737,44.465232 -71.5476281,44.4651583 -71.5475233,44.4650919 -71.5474899,44.4650708 -71.547456,44.4650525 -71.5473517,44.4649961 -71.5473187,44.4649783 -71.547298,44.4649671 -71.5471933,44.4649323 -71.547031,44.4648784 -71.5469089,44.4648475 -71.5467327,44.4648029 -71.546631,44.464777 -71.5465912,44.4647669 -71.5465469,44.4647556 -71.5463909,44.4647158 -71.5462816,44.464688 -71.545956,44.464862</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Silk Road</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">1236758802</SimpleData>
+		<SimpleData name="highway">track</SimpleData>
+		<SimpleData name="tracktype">grade3</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5468263,44.4652452 -71.5465808,44.4653929 -71.5464612,44.4655511</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">18840200</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5452015,44.465301 -71.5454703,44.4651473 -71.5455978,44.4650649 -71.5457001,44.4650061 -71.545956,44.464862 -71.5462045,44.4648969 -71.5462967,44.4649099 -71.5463589,44.4649234 -71.5464725,44.4649479 -71.546548,44.4649643 -71.5466799,44.4649928 -71.546727,44.465003 -71.5468496,44.4650421 -71.5470267,44.4650985 -71.5470606,44.4651093 -71.5471549,44.4651481 -71.5471986,44.465166 -71.5472953,44.4652302 -71.5473973,44.4652978 -71.5474301,44.4653196 -71.5475131,44.4653809 -71.5476102,44.4654526 -71.547712,44.4655278 -71.5478015,44.4656024 -71.5479166,44.4656982 -71.5479524,44.465728 -71.5480058,44.4657725 -71.5480309,44.4657986 -71.5481143,44.4658853 -71.5481938,44.4659679 -71.5482642,44.4660411 -71.5483428,44.46612 -71.5484083,44.4661856</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">290911161</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5479195,44.4663628 -71.5478559,44.4663014 -71.5478191,44.4662658 -71.5477814,44.4662294 -71.5477263,44.4661763 -71.5476895,44.4661408 -71.5476048,44.466059 -71.5475219,44.4659789 -71.5474315,44.4658917 -71.5473966,44.465858 -71.5473497,44.4658127 -71.5472878,44.4657703 -71.5472311,44.4657315 -71.5471422,44.4656706 -71.5470471,44.4656055 -71.5469791,44.465551 -71.5469591,44.4655452 -71.546936,44.4655322 -71.5468726,44.4654932 -71.5467821,44.4654374 -71.546745,44.4654292 -71.5466395,44.4654059 -71.5465808,44.4653929 -71.5465222,44.4653799 -71.546418,44.4653569 -71.5463264,44.4653366 -71.5462744,44.4653251 -71.5462094,44.4653108 -71.5461406,44.4652938 -71.5460076,44.465261 -71.5458544,44.4652322 -71.5457261,44.4652039 -71.5455633,44.4651679 -71.5454703,44.4651473</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Silk Road</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">1236758801</SimpleData>
+		<SimpleData name="highway">track</SimpleData>
+		<SimpleData name="tracktype">grade3</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.546685,44.465628 -71.5465354,44.4657957</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">18839242</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5457001,44.4650061 -71.5458333,44.4650334 -71.5458918,44.4650438 -71.5459422,44.4650527 -71.5460555,44.4650774 -71.5461787,44.4651027 -71.5462292,44.4651132 -71.5463091,44.4651299 -71.5463809,44.4651447 -71.5464465,44.4651582 -71.5465471,44.4651799 -71.5466002,44.4651913 -71.5466945,44.4652137 -71.5468022,44.4652393 -71.5468263,44.4652452 -71.5468477,44.4652504 -71.5469521,44.465276 -71.5470239,44.4653125 -71.5470718,44.4653368 -71.5471422,44.4653801 -71.5471839,44.4654058 -71.547241,44.465449 -71.5473031,44.465496 -71.5474343,44.4655951 -71.5475281,44.465674 -71.5475652,44.4657026 -71.5476096,44.4657376 -71.5476447,44.4657711 -71.5477084,44.4658318 -71.5477532,44.4658746 -71.5478036,44.4659246 -71.5478574,44.4659779 -71.5478904,44.4660093 -71.5479406,44.4660572 -71.5479777,44.4660914 -71.5480352,44.4661444 -71.5480608,44.4661697 -71.5481095,44.466218 -71.548167,44.466275 -71.5482891,44.4664017 -71.5483161,44.4664297 -71.5483878,44.4665042 -71.5484075,44.4665246 -71.5484798,44.4666032 -71.5485048,44.4666304 -71.5485923,44.4667164 -71.5486979,44.466826</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">357021409</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5476557,44.4664408 -71.5476523,44.466513 -71.5476773,44.4665942 -71.5476962,44.4666192 -71.547778,44.4667274 -71.5478407,44.4668103 -71.5478558,44.4668236 -71.5479534,44.4669091 -71.5481529,44.467084</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">357021411</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5452015,44.465301 -71.5452766,44.4653154 -71.5454067,44.4653403 -71.545539,44.4653656 -71.5455951,44.4653763 -71.5456848,44.4653935 -71.5457453,44.4654051 -71.5458439,44.4654239 -71.5459017,44.465435 -71.5459345,44.4654416 -71.5459583,44.4654463 -71.5460171,44.465458 -71.5461103,44.4654765 -71.5461606,44.4654865 -71.5461997,44.4654943 -71.5463041,44.4655151 -71.5463252,44.4655193 -71.546429,44.46554 -71.5464612,44.4655511 -71.5465303,44.4655748 -71.5465454,44.46558 -71.54658,44.4655919 -71.5466217,44.4656062 -71.546685,44.465628 -71.5467697,44.465692 -71.5467893,44.4657052 -71.5468446,44.4657427 -71.5468721,44.4657624 -71.5469163,44.4657941 -71.5469681,44.4658303 -71.5469966,44.4658502 -71.5470682,44.4659016 -71.5471013,44.465926 -71.547142,44.465956 -71.5471632,44.4659697 -71.5472049,44.4660082 -71.5472303,44.4660317 -71.547248,44.466048 -71.5472947,44.4660886 -71.5473336,44.4661223 -71.547401,44.4661808 -71.5474246,44.4662013 -71.5474531,44.4662261 -71.547468,44.466239 -71.5474808,44.4662817 -71.5474919,44.4663187 -71.5475003,44.4663758 -71.5475039,44.4664103</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Silk Road</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">1236758800</SimpleData>
+		<SimpleData name="highway">track</SimpleData>
+		<SimpleData name="tracktype">grade3</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5461969,44.465672 -71.5460559,44.4658489 -71.5458629,44.4660161</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">18839263</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.547294,44.466445 -71.5472044,44.4663528 -71.5471658,44.4663131 -71.5471295,44.4662758 -71.5470903,44.4662355 -71.5470693,44.4662023 -71.5470039,44.4661402 -71.5469757,44.4661135 -71.5469292,44.4660694 -71.5468674,44.4660186 -71.546846,44.466001 -71.5468267,44.4659877 -71.5467821,44.4659571 -71.5466923,44.4658953 -71.5465816,44.4658242 -71.5465354,44.4657957 -71.5464854,44.4657649 -71.5464574,44.4657515 -71.5464069,44.4657274 -71.5463711,44.4657146 -71.5462813,44.4656926 -71.5461969,44.465672 -71.5460899,44.4656561 -71.5459946,44.4656419 -71.5459035,44.4656284 -71.5458636,44.4656243 -71.5457723,44.465615 -71.5456611,44.4656037 -71.5455988,44.4655973 -71.5455447,44.4655871 -71.5454886,44.4655765 -71.5454224,44.4655639 -71.5453634,44.4655528 -71.5452791,44.4655368 -71.5451835,44.4655187 -71.5450571,44.4654948 -71.5449363,44.465472 -71.5446686,44.465642</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">18839250</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.544453,44.465774 -71.5446686,44.465642 -71.5447694,44.4656585 -71.5449041,44.4656805 -71.5450107,44.4656979 -71.545077,44.4657088 -71.545135,44.4657182 -71.5452616,44.4657389 -71.5453898,44.4657599 -71.5454955,44.4657772 -71.545593,44.4657931 -71.5456309,44.4657975 -71.5457336,44.4658093 -71.5458224,44.4658196 -71.5458544,44.4658236 -71.5460079,44.4658429 -71.5460559,44.4658489 -71.5461495,44.4658607 -71.5461774,44.4658674 -71.5462757,44.4658911 -71.5462959,44.465896 -71.5463485,44.4659221 -71.5463925,44.465944 -71.5464346,44.4659649 -71.5464479,44.4659747 -71.5464807,44.4659987 -71.5465146,44.4660236 -71.54654,44.4660422 -71.546582,44.466073 -71.5466234,44.4661115 -71.5466505,44.4661377 -71.5466819,44.4661653 -71.5467425,44.4662185 -71.5467552,44.4662365 -71.5468163,44.4663051 -71.5469026,44.4663649 -71.547002,44.4664485 -71.547094,44.466526</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">290911145</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.546849,44.466625 -71.5469065,44.466706 -71.5470268,44.4668756</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">18840188</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5440366,44.4678343 -71.5439941,44.4677948 -71.543775,44.467596 -71.543615,44.467441 -71.543596,44.467348 -71.543607,44.467266 -71.543721,44.467066 -71.543683,44.466908 -71.5437321,44.46684 -71.5438791,44.466721 -71.5438506,44.46666 -71.543838,44.466599 -71.5438958,44.4665435 -71.5439059,44.4665261 -71.5439785,44.4664015 -71.5439335,44.4663383 -71.543987,44.4662487 -71.5439594,44.466214 -71.5439857,44.4661259 -71.5440498,44.4660753 -71.5441341,44.4660123 -71.5442723,44.4659133 -71.544453,44.465774 -71.5446095,44.4658095 -71.5447,44.46583 -71.5447603,44.4658397 -71.544875,44.465858 -71.5449172,44.4658652 -71.5449949,44.4658783 -71.545072,44.4658907 -71.5451274,44.4658995 -71.5451991,44.4659096 -71.5452625,44.4659184 -71.5453585,44.4659348 -71.5454083,44.4659433 -71.545481,44.4659549 -71.5455729,44.4659697 -71.5456658,44.4659845 -71.545724,44.4659938 -71.5458629,44.4660161 -71.5459563,44.466031 -71.5460317,44.4660399 -71.5460773,44.4660453 -71.5461252,44.4660509 -71.5461596,44.4660692 -71.546216,44.4660992 -71.5462672,44.4661264 -71.5463112,44.4661658 -71.5463492,44.4661998 -71.5464002,44.4662455 -71.5464332,44.466275 -71.5464885,44.4663216 -71.5465802,44.4663987 -71.546675,44.4664786 -71.5467614,44.4665513 -71.546849,44.466625 -71.547094,44.466526 -71.547294,44.466445 -71.5474025,44.46642 -71.5475039,44.4664103 -71.5476197,44.4664379 -71.5476557,44.4664408 -71.5477449,44.4664261 -71.5479195,44.4663628 -71.548167,44.466275 -71.5484083,44.4661856 -71.5486996,44.466084 -71.5489362,44.465996 -71.5492174,44.465906</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">290911166</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5476286,44.4674112 -71.5474504,44.4672504 -71.5473249,44.4671371 -71.5472625,44.4670808 -71.5471848,44.4670131 -71.5470268,44.4668756 -71.5468966,44.4668756 -71.5468118,44.4669117 -71.5466412,44.4669843 -71.5465998,44.4670019 -71.546492,44.4670631 -71.54637,44.4671323 -71.546233,44.4672101 -71.5460898,44.4672913</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">18831953</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5464332,44.466275 -71.5462377,44.466367 -71.546117,44.4664371 -71.5460449,44.4665025 -71.5459596,44.4667098 -71.5458889,44.4668408 -71.5458461,44.4668967 -71.5457381,44.4669512 -71.5456892,44.466979 -71.5455996,44.4670292 -71.5455107,44.4670666</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">18842463</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5449363,44.465472 -71.5452015,44.465301</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">290911150</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">track</SimpleData>
+		<SimpleData name="surface">dirt</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5420337,44.4662102 -71.5422582,44.4661041 -71.5423404,44.4660803 -71.5425071,44.466084 -71.5427153,44.4661175 -71.5428507,44.4661621 -71.5429637,44.4661732 -71.543085,44.4661286 -71.5432361,44.4660506 -71.5433558,44.4659354 -71.54346,44.465783 -71.5435433,44.4656641 -71.543637,44.4655192 -71.5437203,44.4654448 -71.543814,44.4653928 -71.5439442,44.4653557 -71.5441213,44.4653482 -71.5442983,44.4653594 -71.5444285,44.4653928 -71.5445274,44.465404 -71.5446784,44.465404 -71.5447969,44.4654068 -71.5448581,44.4654198 -71.5449363,44.465472</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Silk Road</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">1236758803</SimpleData>
+		<SimpleData name="highway">track</SimpleData>
+		<SimpleData name="tracktype">grade3</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.545724,44.4659938 -71.5455962,44.4661322</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Silk Road</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">1236758804</SimpleData>
+		<SimpleData name="highway">track</SimpleData>
+		<SimpleData name="tracktype">grade3</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5457541,44.4661538 -71.5456119,44.4663031</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">290911162</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5462377,44.466367 -71.5461234,44.4662892 -71.5460148,44.4662153 -71.5459802,44.4661918 -71.5459229,44.4661769 -71.5458732,44.4661701 -71.5457541,44.4661538 -71.5455962,44.4661322 -71.5454541,44.4661128 -71.5453991,44.4661053 -71.545266,44.4660871 -71.5451061,44.4660652 -71.5449903,44.4660493 -71.5448555,44.4660309 -71.5447373,44.4660071 -71.5446219,44.4659838 -71.5445668,44.4659727 -71.5444528,44.4659497 -71.5442723,44.4659133</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">18842180</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5440498,44.4660753 -71.5441608,44.4660926 -71.5442491,44.4661064 -71.5442886,44.4661126 -71.544412,44.4661318 -71.5444445,44.4661364 -71.5444978,44.466144 -71.5445956,44.466158 -71.5446352,44.4661637 -71.5446715,44.4661688 -71.5447012,44.4661731 -71.544794,44.4661863 -71.5448414,44.4661931 -71.5449175,44.4662052 -71.5449942,44.4662149 -71.5450763,44.4662266 -71.5451386,44.4662355 -71.5452298,44.4662486 -71.5452913,44.4662573 -71.5453131,44.4662605 -71.5453837,44.4662705 -71.5454423,44.4662789 -71.5455343,44.466292 -71.5455921,44.4663003 -71.5456119,44.4663031 -71.5456945,44.4663149 -71.5457545,44.466331 -71.5458808,44.4663648 -71.5458967,44.4663782 -71.5459586,44.46643 -71.5459949,44.4664606 -71.5460449,44.4665025</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Silk Road</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">1236758805</SimpleData>
+		<SimpleData name="highway">track</SimpleData>
+		<SimpleData name="tracktype">grade3</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5453837,44.4662705 -71.5452644,44.4664026</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Silk Road</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">1236758799</SimpleData>
+		<SimpleData name="highway">track</SimpleData>
+		<SimpleData name="tracktype">grade3</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5454196,44.4664306 -71.5452636,44.4665531</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Silk Road</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">1236758806</SimpleData>
+		<SimpleData name="highway">track</SimpleData>
+		<SimpleData name="tracktype">grade3</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5451005,44.4665321 -71.5449797,44.466641</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">1211112755</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5455107,44.4670666 -71.5453757,44.4671356 -71.5452592,44.4671952 -71.5449851,44.4673065 -71.544685,44.4670224 -71.544615,44.467007</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">18831951</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.543987,44.4662487 -71.5440501,44.4662573 -71.5441914,44.4662766 -71.5443319,44.4663005 -71.5443593,44.4662995 -71.5444841,44.4663137 -71.5445219,44.466318 -71.544545,44.4663207 -71.5446113,44.4663282 -71.5446397,44.4663315 -71.5447094,44.4663394 -71.5447641,44.4663456 -71.5447869,44.4663485 -71.544877,44.4663599 -71.5449548,44.4663697 -71.5450276,44.4663769 -71.5451107,44.4663851 -71.5451531,44.46639 -71.5452404,44.4663999 -71.5452644,44.4664026 -71.5452933,44.4664058 -71.5453714,44.4664211 -71.5454196,44.4664306 -71.5454901,44.4664444 -71.5455715,44.466458 -71.545648,44.4664705 -71.5456882,44.4665014 -71.5457152,44.4665221 -71.5457326,44.4665355 -71.5458399,44.4666178 -71.5459205,44.4666798 -71.5459596,44.4667098</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">290911159</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5458889,44.4668408 -71.5458056,44.4667678 -71.5457916,44.4667562 -71.5457303,44.4667059 -71.5457053,44.4666917 -71.5456384,44.4666537 -71.5456154,44.4666407 -71.5455615,44.4666101 -71.5455333,44.4665941 -71.5454536,44.466582 -71.545412,44.4665757 -71.5452636,44.4665531 -71.5452218,44.4665477 -71.5451005,44.4665321 -71.5450351,44.466525 -71.5450085,44.4665208 -71.5449553,44.4665162 -71.5448718,44.4665044 -71.544813,44.4664976 -71.544781,44.4664926 -71.5447217,44.4664865 -71.5446671,44.4664808 -71.5445637,44.4664689 -71.5445078,44.4664614 -71.5443727,44.4664457 -71.5442502,44.4664328 -71.5441193,44.4664178 -71.5439785,44.4664015</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">18831959</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5439059,44.4665261 -71.5440535,44.4665332 -71.5441908,44.4665489 -71.5442608,44.4665539 -71.5442872,44.4665515 -71.5443262,44.4665598 -71.5443508,44.4665651 -71.5443931,44.4665714 -71.5444299,44.4665745 -71.5444522,44.466577 -71.5445938,44.4665927 -71.5446828,44.466607 -71.544715,44.4666092 -71.5447347,44.4666105 -71.5447654,44.4666141 -71.5448315,44.4666221 -71.544857,44.466625 -71.5449127,44.4666323 -71.5449797,44.466641 -71.5450475,44.4666498 -71.5451179,44.466659 -71.5452277,44.4666763 -71.5452528,44.4666798 -71.5453175,44.4666895 -71.5453663,44.466696 -71.545471,44.46671 -71.54553,44.4667522 -71.5455793,44.4667875 -71.5456933,44.4668691 -71.5457186,44.4669154 -71.5457381,44.4669512</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">290911169</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5457381,44.4669512 -71.5455578,44.4669687 -71.5455101,44.4669484 -71.5454453,44.4669208 -71.5453815,44.4668936 -71.5453481,44.4668794 -71.5453249,44.4668528 -71.5452636,44.4668181 -71.5451826,44.4668026 -71.5451018,44.4667902 -71.5449864,44.4667725 -71.5448231,44.4667532 -71.5446766,44.4667373 -71.5445265,44.4667209 -71.5443856,44.4666998 -71.544238,44.4666777 -71.544201,44.4666717 -71.5440709,44.4666689 -71.5440097,44.4667051 -71.5439727,44.4667465</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">290911168</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">track</SimpleData>
+		<SimpleData name="surface">dirt</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5439335,44.4663383 -71.5437313,44.466288 -71.5436227,44.4662315 -71.5435877,44.4661685 -71.5436356,44.4661251 -71.5437295,44.4661002 -71.5439288,44.4660749 -71.5440498,44.4660753</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">290911156</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+		<SimpleData name="oneway">-1</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.544615,44.467007 -71.544265,44.4668599 -71.5439727,44.4667465 -71.5438791,44.466721</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">290911154</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.543683,44.466908 -71.5436569,44.4668909 -71.5436257,44.46685 -71.5435775,44.4666902</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">1235015084</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5473615,44.4676575 -71.5474695,44.4677723 -71.5475687,44.4678393 -71.5476653,44.4679101</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">290911146</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5472625,44.4670808 -71.547132,44.4672036 -71.5469874,44.4673397 -71.5468724,44.4674479 -71.5467372,44.4675752 -71.5466273,44.4676786</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">290911158</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5466273,44.4676786 -71.5465841,44.4676499 -71.546433,44.4675492 -71.5463811,44.4675147 -71.5462291,44.4673981 -71.5460898,44.4672913 -71.5459289,44.4671659 -71.5456892,44.466979</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Milk Road</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">1235733185</SimpleData>
+		<SimpleData name="highway">path</SimpleData>
+		<SimpleData name="surface">unpaved</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5462234,44.4681863 -71.546068,44.4680802 -71.5460487,44.4675754</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">357021406</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5466273,44.4676786 -71.5466524,44.4677575 -71.5466594,44.4677793 -71.5466454,44.4678665 -71.5466214,44.4678966 -71.5465583,44.4679757 -71.5464458,44.4680601 -71.5464297,44.4680757 -71.5462495,44.4681586 -71.5462502,44.4681669 -71.5462234,44.4681863 -71.5461523,44.4682378 -71.5460474,44.4683096 -71.5460117,44.4683335 -71.5459501,44.4683863 -71.5459167,44.4684199 -71.5458708,44.4684405 -71.5458242,44.4684752 -71.5457884,44.4685018 -71.5456781,44.4685573 -71.5456428,44.4685779 -71.5455712,44.4686289 -71.5455411,44.4686513 -71.5454936,44.4686815 -71.5453733,44.4687581 -71.5452171,44.4688447 -71.545159,44.4688806 -71.5451516,44.4688851 -71.5451443,44.4688896 -71.5451358,44.4689095 -71.5451233,44.4689387 -71.545126,44.4689501 -71.545131,44.4689716 -71.5451331,44.4689807 -71.545157,44.469007 -71.5451668,44.4690178 -71.5451978,44.4690296 -71.54523,44.4690419 -71.545258,44.4690503 -71.5452932,44.4690609 -71.5453915,44.4690569 -71.5454785,44.4690389 -71.5455215,44.4690189 -71.5455551,44.4690033 -71.5455873,44.4689883 -71.5456342,44.4689665 -71.5456838,44.4689407 -71.545752,44.4689117 -71.5458015,44.4688886 -71.5458693,44.4688596 -71.5459981,44.4688044 -71.5460081,44.468799 -71.5461218,44.4687424 -71.5462413,44.4686589 -71.5463338,44.4685795 -71.5463856,44.4685128 -71.5464551,44.468456 -71.5464635,44.4684392 -71.5465681,44.4683685 -71.5465832,44.4683529 -71.5466263,44.4683183 -71.5466973,44.4682633 -71.5467355,44.4682224 -71.5467928,44.4681611 -71.5468101,44.468141 -71.5468226,44.4681264 -71.5468728,44.4680679 -71.5468854,44.4680547 -71.5469333,44.4680091 -71.5469459,44.4679917 -71.546973,44.4679713 -71.5470336,44.4679265 -71.5470722,44.4678965 -71.5471359,44.4678463 -71.5472109,44.4677873</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">357021404</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5463338,44.4685795 -71.5461821,44.4684636 -71.5461601,44.4684468 -71.5460117,44.4683335</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">1211112754</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.545872,44.4674345 -71.5455717,44.4671287 -71.5455107,44.4670666</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">357021410</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5456193,44.4678504 -71.5455666,44.467788 -71.5454486,44.4676669 -71.5456422,44.4675705 -71.5455121,44.4674458 -71.5453334,44.4672687 -71.5454786,44.4671789 -71.5455717,44.4671287</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">357021408</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5451199,44.4676136 -71.5451706,44.4675911 -71.5452043,44.4675939 -71.5455121,44.4674458</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">290911165</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5453413,44.4679512 -71.5453021,44.467905 -71.5452143,44.4678015 -71.5451664,44.4677252 -71.5451199,44.4676136 -71.5450909,44.4675439 -71.5449347,44.4673349</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">290911153</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+		<SimpleData name="service">parking_aisle</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5445625,44.4677962 -71.5447706,44.4676293 -71.5447917,44.4675564 -71.5447351,44.467455</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Roger's Campground Road</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">18839416</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">residential</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5449851,44.4673065 -71.544964,44.467319 -71.5449347,44.4673349 -71.5447351,44.467455 -71.54429,44.4677032 -71.5440366,44.4678343</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">290911151</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+		<SimpleData name="service">parking_aisle</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5455666,44.467788 -71.5453021,44.467905 -71.5450835,44.4680051</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">290911171</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5445479,44.4681238 -71.5446197,44.4681495 -71.5449565,44.4682715 -71.5450522,44.4682991 -71.5451185,44.4683136 -71.5451811,44.4683083 -71.5453026,44.4682873 -71.5454977,44.4682387 -71.5455451,44.4682374 -71.5455806,44.4682492</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">18836726</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.54429,44.4677032 -71.544391,44.467856 -71.5444818,44.4679544 -71.5445326,44.4680501 -71.5445479,44.4681238 -71.5444932,44.4681984 -71.5444204,44.4682625 -71.5443586,44.468325 -71.5441653,44.468442</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">290911163</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5446839,44.4683842 -71.5446982,44.4683582 -71.5447106,44.4683169 -71.5447061,44.468289 -71.5446729,44.4682625 -71.5445714,44.4682296 -71.5445459,44.4682231 -71.5444932,44.4681984</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">290911148</SimpleData>
+		<SimpleData name="highway">footway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5445316,44.4683494 -71.5444848,44.4683078 -71.5444613,44.4682899 -71.5444204,44.4682625</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">18836727</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5432237,44.467467 -71.543135,44.467616 -71.5431585,44.46771 -71.5434214,44.467982 -71.5434975,44.4680384 -71.5436076,44.468051 -71.5437423,44.4680011</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Roger's Campground Road</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">18844569</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="highway">residential</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5440366,44.4678343 -71.5438951,44.4679135 -71.5437423,44.4680011</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<name>Portland Street</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">18847379</SimpleData>
+		<SimpleData name="highway">trunk</SimpleData>
+		<SimpleData name="surface">asphalt</SimpleData>
+		<SimpleData name="bicycle">yes</SimpleData>
+		<SimpleData name="ref">US 2</SimpleData>
+		<SimpleData name="foot">yes</SimpleData>
+		<SimpleData name="hgv">yes</SimpleData>
+		<SimpleData name="maxspeed">50 mph</SimpleData>
+		<SimpleData name="lanes">2</SimpleData>
+		<SimpleData name="NHS">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.531731,44.449878 -71.53193,44.450266 -71.532209,44.450921 -71.532733,44.451946 -71.533801,44.453914 -71.534236,44.454644 -71.534258,44.45469 -71.534294,44.454762 -71.534485,44.455157 -71.534744,44.455673 -71.5353734,44.456818 -71.536223,44.458382 -71.536595,44.459081 -71.536828,44.459543 -71.537019,44.459921 -71.53754,44.46092 -71.537966,44.461758 -71.538136,44.462013 -71.538246,44.462149 -71.539069,44.463038 -71.539369,44.4633761 -71.5398131,44.4638367 -71.540101,44.464129 -71.5404958,44.4645646 -71.541421,44.46556 -71.5420337,44.4662102 -71.5425693,44.4667759 -71.5432237,44.467467 -71.5437423,44.4680011 -71.5441653,44.468442 -71.54494,44.469253 -71.545078,44.469393 -71.54534,44.469659 -71.545787,44.470086 -71.545926,44.470203 -71.546201,44.470437 -71.546537,44.470703 -71.547046,44.471088 -71.547446,44.471358 -71.547988,44.471731 -71.548397,44.472019 -71.548844,44.4723481</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">357021407</SimpleData>
+		<SimpleData name="highway">track</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5425456,44.4662383 -71.5426256,44.4662664 -71.5427857,44.4662724 -71.5429275,44.4662614</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">357021403</SimpleData>
+		<SimpleData name="highway">track</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5427012,44.4667141 -71.5426775,44.4666662 -71.5426874,44.4666282 -71.5427295,44.4665851 -71.5428011,44.466537 -71.5428741,44.4664919 -71.542898,44.4664648 -71.5429205,44.4664327 -71.5429275,44.4664007 -71.5429275,44.4662614 -71.5429401,44.4662193 -71.5429637,44.4661732</coordinates></LineString>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#roads">
+		<SimpleData name="osm_id">357021405</SimpleData>
+		<SimpleData name="access">private</SimpleData>
+		<SimpleData name="highway">service</SimpleData>
+		<SimpleData name="service">driveway</SimpleData>
+	</SchemaData></ExtendedData>
+      <LineString><coordinates>-71.5425693,44.4667759 -71.5427012,44.4667141 -71.5428376,44.4666502</coordinates></LineString>
+  </Placemark>
+</Folder>
+<Folder><name>amenity_points</name>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_points">
+		<SimpleData name="osm_id">11471939563</SimpleData>
+		<SimpleData name="tourism">information</SimpleData>
+		<SimpleData name="information">board</SimpleData>
+		<SimpleData name="board_type">welcome_sign</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.5458006,44.4669667</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_points">
+		<SimpleData name="osm_id">3624161831</SimpleData>
+		<SimpleData name="tourism">information</SimpleData>
+		<SimpleData name="information">board</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.5455869,44.4669776</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Laundry Room</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_points">
+		<SimpleData name="osm_id">11471939562</SimpleData>
+		<SimpleData name="shop">laundry</SimpleData>
+		<SimpleData name="self_service">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.5451032,44.4668978</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Media Room</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_points">
+		<SimpleData name="osm_id">11471939560</SimpleData>
+		<SimpleData name="amenity">events_venue</SimpleData>
+		<SimpleData name="addr:unit">upstairs</SimpleData>
+		<SimpleData name="reference">LB101</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.5448564,44.467005</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_points">
+		<SimpleData name="osm_id">3624161852</SimpleData>
+		<SimpleData name="leisure">firepit</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.5438733,44.4672361</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Alpine Gold</name>
+	<ExtendedData><SchemaData schemaUrl="#amenity_points">
+		<SimpleData name="osm_id">11802002426</SimpleData>
+		<SimpleData name="shop">money_lender</SimpleData>
+		<SimpleData name="leisure">money</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.5437485,44.4673658</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_points">
+		<SimpleData name="osm_id">3624161886</SimpleData>
+		<SimpleData name="tourism">viewpoint</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.5433523,44.4678087</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<ExtendedData><SchemaData schemaUrl="#amenity_points">
+		<SimpleData name="osm_id">3624161951</SimpleData>
+		<SimpleData name="tourism">camp_site</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-71.5451233,44.4689387</coordinates></Point>
+  </Placemark>
+</Folder>
+<Folder><name>amenity_polygons</name>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#amenity_polygons">
+		<SimpleData name="osm_id">290911140</SimpleData>
+		<SimpleData name="amenity">toilets</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="toilets:disposal">flush</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5473702,44.4668859 -71.5473084,44.4668352 -71.5472025,44.4669009 -71.5472643,44.4669516 -71.5473702,44.4668859</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Roger's Campground</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#amenity_polygons">
+		<SimpleData name="osm_id">290911129</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="tourism">camp_site</SimpleData>
+		<SimpleData name="fee">yes</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="tents">yes</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="caravans">yes</SimpleData>
+		<SimpleData name="static_caravans">yes</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5504834,44.46657 -71.5503179,44.4663798 -71.5501491,44.4661858 -71.5500585,44.466083 -71.5500046,44.4660219 -71.5499774,44.465991 -71.5499076,44.4659118 -71.5498254,44.4658185 -71.5497526,44.4657359 -71.5496887,44.4656634 -71.5496348,44.4656107 -71.549543,44.4655052 -71.5494654,44.4654161 -71.5490426,44.4649302 -71.548397,44.4642018 -71.5470431,44.4640531 -71.5468296,44.4639751 -71.5464703,44.4640457 -71.5457882,44.4646143 -71.5451165,44.4647704 -71.5448301,44.4646217 -71.5445125,44.4648447 -71.544148,44.4650268 -71.5440959,44.4652052 -71.5445749,44.465469 -71.5443406,44.46564 -71.5439761,44.4658369 -71.5435075,44.4661156 -71.5434294,44.4662606 -71.5433877,44.4664835 -71.54332,44.4667399 -71.5432211,44.4668477 -71.542992,44.4670224 -71.5454166,44.4696226 -71.5456173,44.4695185 -71.546751,44.4686662 -71.5478888,44.467831 -71.5480791,44.4676913 -71.5484886,44.4673907 -71.5504834,44.46657</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#amenity_polygons">
+		<SimpleData name="osm_id">290911142</SimpleData>
+		<SimpleData name="amenity">toilets</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="toilets:disposal">flush</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5452867,44.4669188 -71.5452151,44.4668435 -71.5451274,44.466886 -71.545199,44.4669613 -71.5452867,44.4669188</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#amenity_polygons">
+		<SimpleData name="osm_id">290913391</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="surface">paved</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5456328,44.4670401 -71.5455578,44.4669687 -71.5455101,44.4669484 -71.5454453,44.4669208 -71.5453815,44.4668936 -71.5448989,44.4671088 -71.5448287,44.4670531 -71.5446933,44.4670995 -71.5447116,44.4671496 -71.5446881,44.4671701 -71.544748,44.4673168 -71.5447974,44.4673242 -71.5449118,44.4673978 -71.5456328,44.4670401</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#amenity_polygons">
+		<SimpleData name="osm_id">1211062596</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5438837,44.4663591 -71.5434717,44.4662274 -71.54332,44.4667399 -71.5436026,44.4666654 -71.5436669,44.4668553 -71.5437721,44.4667618 -71.5437978,44.4667266 -71.5438453,44.4665232 -71.5438837,44.4663591</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#amenity_polygons">
+		<SimpleData name="osm_id">290911186</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="leisure">playground</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5462912,44.4675505 -71.5461237,44.4673981 -71.5456763,44.4676136 -71.5458733,44.4678619 -71.5459967,44.4678093 -71.5459322,44.4677187 -71.5462912,44.4675505</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>TS 42</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#amenity_polygons">
+		<SimpleData name="osm_id">1235733182</SimpleData>
+		<SimpleData name="tourism">camp_site</SimpleData>
+		<SimpleData name="reference">TS42</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5468453,44.4682989 -71.5467355,44.4682224 -71.5466263,44.4683183 -71.5467401,44.4683903 -71.5468453,44.4682989</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#amenity_polygons">
+		<SimpleData name="osm_id">357021402</SimpleData>
+		<SimpleData name="amenity">toilets</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="toilets:disposal">flush</SimpleData>
+		<SimpleData name="male">yes</SimpleData>
+		<SimpleData name="female">yes</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5462201,44.4685655 -71.5461641,44.4685163 -71.5460846,44.4685623 -71.5461407,44.4686116 -71.5462201,44.4685655</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Roger's Motel</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#amenity_polygons">
+		<SimpleData name="osm_id">290911131</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="tourism">hotel</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5450029,44.4676703 -71.5449704,44.4674242 -71.5449085,44.4674244 -71.5449085,44.4674101 -71.5448467,44.4674102 -71.5448754,44.4676211 -71.5448604,44.4676508 -71.5445812,44.4678543 -71.5446039,44.4678696 -71.5446176,44.4678603 -71.5446905,44.4679017 -71.544952,44.467708 -71.5450029,44.4676703</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#amenity_polygons">
+		<SimpleData name="osm_id">290911174</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5448637,44.4676193 -71.5448454,44.4674544 -71.5446847,44.4675246 -71.5446834,44.4675603 -71.5446795,44.4675863 -71.544507,44.4677067 -71.5445441,44.467729 -71.544505,44.4677615 -71.5445994,44.4678335 -71.54485,44.4676486 -71.5448637,44.4676193</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Roger's Motel</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#amenity_polygons">
+		<SimpleData name="osm_id">290911133</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="building">yes</SimpleData>
+		<SimpleData name="tourism">hotel</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5457029,44.4679299 -71.5456401,44.4678569 -71.5450849,44.4681004 -71.5451477,44.4681734 -71.5455134,44.468013 -71.5457029,44.4679299</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#amenity_polygons">
+		<SimpleData name="osm_id">290911180</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5455894,44.4678511 -71.5454788,44.4677276 -71.5449906,44.4679459 -71.5451182,44.468075 -71.5455894,44.4678511</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#amenity_polygons">
+		<SimpleData name="osm_id">290911177</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.544667,44.4680503 -71.5446488,44.4680159 -71.5446032,44.4679611 -71.5444171,44.4677781 -71.5443116,44.4678273 -71.5440721,44.4679434 -71.5443168,44.468172 -71.5443455,44.4682203 -71.5443507,44.4682612 -71.5443311,44.4682881 -71.544404,44.4683568 -71.5445245,44.4682795 -71.5445447,44.4682342 -71.5446605,44.4680772 -71.544667,44.4680503</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#amenity_polygons">
+		<SimpleData name="osm_id">290911183</SimpleData>
+		<SimpleData name="leisure">miniature_golf</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5448681,44.4685658 -71.544614,44.4682939 -71.5444244,44.4683937 -71.5446914,44.4686591 -71.5448681,44.4685658</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+<Folder><name>forests</name>
+  <Placemark>
+	<name>Body Freedom</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#forests">
+		<SimpleData name="osm_id">1235015062</SimpleData>
+		<SimpleData name="landuse">forest</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5503179,44.4663798 -71.5500046,44.4660219 -71.5496887,44.4656634 -71.549489,44.465805 -71.5492174,44.465906 -71.5498191,44.466565 -71.5502429,44.466408 -71.5503179,44.4663798</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Quiet RV</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#forests">
+		<SimpleData name="osm_id">1220530511</SimpleData>
+		<SimpleData name="landuse">forest</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.548009,44.4648322 -71.5476429,44.464643 -71.546859,44.464392 -71.5457001,44.4650061 -71.5464465,44.4651582 -71.5469521,44.465276 -71.547241,44.465449 -71.5473973,44.4652978 -71.5476281,44.4651583 -71.547847,44.4650181 -71.548009,44.4648322</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Night Owls **</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#forests">
+		<SimpleData name="osm_id">1220087110</SimpleData>
+		<SimpleData name="landuse">forest</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5464332,44.466275 -71.5461596,44.4660692 -71.545481,44.4659549 -71.544453,44.465774 -71.5427721,44.4666149 -71.5440366,44.4678343 -71.5453757,44.4671356 -71.5458889,44.4668408 -71.5460449,44.4665025 -71.5464332,44.466275</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Quiet/Family</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#forests">
+		<SimpleData name="osm_id">1240806825</SimpleData>
+		<SimpleData name="landuse">forest</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5480791,44.4676913 -71.5477588,44.4673189 -71.5474653,44.4675618 -71.5472951,44.467378 -71.5471315,44.4674929 -71.5469874,44.4673397 -71.5468724,44.4674479 -71.5466273,44.4672057 -71.5456763,44.4676136 -71.546068,44.4680802 -71.5448402,44.4688351 -71.5456173,44.4695185 -71.546751,44.4686662 -71.5480791,44.4676913</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+<Folder><name>landcover</name>
+  <Placemark>
+	<name>Body Freedom</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">1235015062</SimpleData>
+		<SimpleData name="landuse">forest</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5503179,44.4663798 -71.5500046,44.4660219 -71.5496887,44.4656634 -71.549489,44.465805 -71.5492174,44.465906 -71.5498191,44.466565 -71.5502429,44.466408 -71.5503179,44.4663798</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">1235733627</SimpleData>
+		<SimpleData name="landuse">meadow</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5492291,44.4654423 -71.5490219,44.4651769 -71.5488717,44.4649702 -71.5488073,44.4647941 -71.5486356,44.4647022 -71.548405,44.464549 -71.5482816,44.4644533 -71.5480456,44.4643614 -71.54789,44.4642849 -71.5475306,44.4642542 -71.5472784,44.4642083 -71.5470531,44.4641853 -71.5468868,44.4643078 -71.5470639,44.4643768 -71.5473535,44.4644725 -71.5476379,44.4645835 -71.5479114,44.4646983 -71.5481153,44.4648209 -71.548287,44.464974 -71.5484586,44.465131 -71.548641,44.4652956 -71.5488127,44.4654372 -71.5489307,44.4655444 -71.5489015,44.4656023 -71.5492291,44.4654423</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Quiet RV</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">1220530511</SimpleData>
+		<SimpleData name="landuse">forest</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.548009,44.4648322 -71.5476429,44.464643 -71.546859,44.464392 -71.5457001,44.4650061 -71.5464465,44.4651582 -71.5469521,44.465276 -71.547241,44.465449 -71.5473973,44.4652978 -71.5476281,44.4651583 -71.547847,44.4650181 -71.548009,44.4648322</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Roger's Campground</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">290911129</SimpleData>
+		<SimpleData name="addr:housenumber">10</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="tourism">camp_site</SimpleData>
+		<SimpleData name="fee">yes</SimpleData>
+		<SimpleData name="addr:city">Lancaster</SimpleData>
+		<SimpleData name="tents">yes</SimpleData>
+		<SimpleData name="addr:postcode">03584-3325</SimpleData>
+		<SimpleData name="addr:state">NH</SimpleData>
+		<SimpleData name="caravans">yes</SimpleData>
+		<SimpleData name="static_caravans">yes</SimpleData>
+		<SimpleData name="addr:street">Roger's Campground Road</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5504834,44.46657 -71.5503179,44.4663798 -71.5501491,44.4661858 -71.5500585,44.466083 -71.5500046,44.4660219 -71.5499774,44.465991 -71.5499076,44.4659118 -71.5498254,44.4658185 -71.5497526,44.4657359 -71.5496887,44.4656634 -71.5496348,44.4656107 -71.549543,44.4655052 -71.5494654,44.4654161 -71.5490426,44.4649302 -71.548397,44.4642018 -71.5470431,44.4640531 -71.5468296,44.4639751 -71.5464703,44.4640457 -71.5457882,44.4646143 -71.5451165,44.4647704 -71.5448301,44.4646217 -71.5445125,44.4648447 -71.544148,44.4650268 -71.5440959,44.4652052 -71.5445749,44.465469 -71.5443406,44.46564 -71.5439761,44.4658369 -71.5435075,44.4661156 -71.5434294,44.4662606 -71.5433877,44.4664835 -71.54332,44.4667399 -71.5432211,44.4668477 -71.542992,44.4670224 -71.5454166,44.4696226 -71.5456173,44.4695185 -71.546751,44.4686662 -71.5478888,44.467831 -71.5480791,44.4676913 -71.5484886,44.4673907 -71.5504834,44.46657</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">290913391</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+		<SimpleData name="surface">paved</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5456328,44.4670401 -71.5455578,44.4669687 -71.5455101,44.4669484 -71.5454453,44.4669208 -71.5453815,44.4668936 -71.5448989,44.4671088 -71.5448287,44.4670531 -71.5446933,44.4670995 -71.5447116,44.4671496 -71.5446881,44.4671701 -71.544748,44.4673168 -71.5447974,44.4673242 -71.5449118,44.4673978 -71.5456328,44.4670401</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Night Owls **</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">1220087110</SimpleData>
+		<SimpleData name="landuse">forest</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5464332,44.466275 -71.5461596,44.4660692 -71.545481,44.4659549 -71.544453,44.465774 -71.5427721,44.4666149 -71.5440366,44.4678343 -71.5453757,44.4671356 -71.5458889,44.4668408 -71.5460449,44.4665025 -71.5464332,44.466275</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">290911185</SimpleData>
+		<SimpleData name="sport">basketball</SimpleData>
+		<SimpleData name="leisure">pitch</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5440761,44.4669477 -71.5439849,44.4668965 -71.5438668,44.4670035 -71.5439579,44.4670547 -71.5440761,44.4669477</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">1211062596</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5438837,44.4663591 -71.5434717,44.4662274 -71.54332,44.4667399 -71.5436026,44.4666654 -71.5436669,44.4668553 -71.5437721,44.4667618 -71.5437978,44.4667266 -71.5438453,44.4665232 -71.5438837,44.4663591</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">290911186</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="leisure">playground</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5462912,44.4675505 -71.5461237,44.4673981 -71.5456763,44.4676136 -71.5458733,44.4678619 -71.5459967,44.4678093 -71.5459322,44.4677187 -71.5462912,44.4675505</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>TS 42</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">1235733182</SimpleData>
+		<SimpleData name="tourism">camp_site</SimpleData>
+		<SimpleData name="reference">TS42</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5468453,44.4682989 -71.5467355,44.4682224 -71.5466263,44.4683183 -71.5467401,44.4683903 -71.5468453,44.4682989</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<name>Quiet/Family</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">1240806825</SimpleData>
+		<SimpleData name="landuse">forest</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5480791,44.4676913 -71.5477588,44.4673189 -71.5474653,44.4675618 -71.5472951,44.467378 -71.5471315,44.4674929 -71.5469874,44.4673397 -71.5468724,44.4674479 -71.5466273,44.4672057 -71.5456763,44.4676136 -71.546068,44.4680802 -71.5448402,44.4688351 -71.5456173,44.4695185 -71.546751,44.4686662 -71.5480791,44.4676913</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">357021395</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="leisure">swimming_pool</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5453741,44.4672127 -71.5453681,44.4672013 -71.5453552,44.467202 -71.5453254,44.4672219 -71.5453364,44.4672382 -71.5453662,44.4672233 -71.5453741,44.4672127</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">290911189</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="leisure">swimming_pool</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.545283,44.4673047 -71.545265,44.4672952 -71.5452775,44.4672876 -71.5452664,44.4672784 -71.545254,44.4672843 -71.5452416,44.4672719 -71.5451431,44.4673287 -71.545178,44.4673573 -71.545283,44.4673047</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">290911182</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="leisure">swimming_pool</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5454235,44.4674244 -71.545357,44.4673545 -71.545167,44.4674465 -71.5452334,44.4675164 -71.5454235,44.4674244</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">357021389</SimpleData>
+		<SimpleData name="sport">shuffleboard</SimpleData>
+		<SimpleData name="leisure">pitch</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5455755,44.4675745 -71.5454932,44.4674929 -71.5453125,44.4675857 -71.5453948,44.4676673 -71.5455755,44.4675745</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">290911191</SimpleData>
+		<SimpleData name="access">customers</SimpleData>
+		<SimpleData name="sport">tennis</SimpleData>
+		<SimpleData name="leisure">pitch</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5458614,44.4678744 -71.5456234,44.4676061 -71.5454733,44.4676714 -71.5456401,44.4678569 -71.5457029,44.4679299 -71.5457132,44.4679419 -71.5458614,44.4678744</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">290911174</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5448637,44.4676193 -71.5448454,44.4674544 -71.5446847,44.4675246 -71.5446834,44.4675603 -71.5446795,44.4675863 -71.544507,44.4677067 -71.5445441,44.467729 -71.544505,44.4677615 -71.5445994,44.4678335 -71.54485,44.4676486 -71.5448637,44.4676193</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">290911180</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5455894,44.4678511 -71.5454788,44.4677276 -71.5449906,44.4679459 -71.5451182,44.468075 -71.5455894,44.4678511</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">290911177</SimpleData>
+		<SimpleData name="amenity">parking</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.544667,44.4680503 -71.5446488,44.4680159 -71.5446032,44.4679611 -71.5444171,44.4677781 -71.5443116,44.4678273 -71.5440721,44.4679434 -71.5443168,44.468172 -71.5443455,44.4682203 -71.5443507,44.4682612 -71.5443311,44.4682881 -71.544404,44.4683568 -71.5445245,44.4682795 -71.5445447,44.4682342 -71.5446605,44.4680772 -71.544667,44.4680503</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">290911187</SimpleData>
+		<SimpleData name="leisure">swimming_pool</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5447275,44.4681966 -71.5446781,44.468185 -71.5446579,44.468185 -71.5446514,44.4681947 -71.5446611,44.4682003 -71.5446494,44.468218 -71.5446976,44.4682393 -71.5447275,44.4681966</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">290911183</SimpleData>
+		<SimpleData name="leisure">miniature_golf</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5448681,44.4685658 -71.544614,44.4682939 -71.5444244,44.4683937 -71.5446914,44.4686591 -71.5448681,44.4685658</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">357021391</SimpleData>
+		<SimpleData name="sport">basketball</SimpleData>
+		<SimpleData name="leisure">pitch</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5450722,44.4686353 -71.5449739,44.4685442 -71.5447745,44.4686674 -71.5448643,44.4687526 -71.5450722,44.4686353</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+  <Placemark>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#landcover">
+		<SimpleData name="osm_id">290911172</SimpleData>
+		<SimpleData name="landuse">meadow</SimpleData>
+		<SimpleData name="meadow">agricultural</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>-71.5438816,44.4699967 -71.5433293,44.4693293 -71.543241,44.4691401 -71.5430716,44.4686987 -71.5434251,44.46852 -71.5438153,44.4683466 -71.5436165,44.4681522 -71.5434985,44.4681812 -71.5434416,44.4681739 -71.5433956,44.4681469 -71.5432502,44.4680572 -71.5430967,44.4679063 -71.5430122,44.4677872 -71.5429685,44.4676687 -71.5429906,44.4674532 -71.5422321,44.4666859 -71.542129,44.466707 -71.5418197,44.4668751 -71.5418344,44.466975 -71.5419154,44.4670696 -71.5421069,44.4671011 -71.5422174,44.4671274 -71.5422395,44.467243 -71.5423278,44.4673586 -71.5422763,44.4674585 -71.5421069,44.46749 -71.5419302,44.4674427 -71.5417829,44.4672325 -71.5415841,44.4670696 -71.540693,44.4674164 -71.5402806,44.467737 -71.5402365,44.4679157 -71.5403469,44.4681942 -71.5414662,44.4695973 -71.541967,44.4700755 -71.5425046,44.4704119 -71.5428286,44.4703856 -71.5432115,44.4702437 -71.5433588,44.4701334 -71.5438816,44.4699967</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+<Schema name="buildings" id="buildings">
+	<SimpleField name="osm_id" type="float"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="access" type="string"></SimpleField>
+	<SimpleField name="man_made" type="string"></SimpleField>
+	<SimpleField name="tourism" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:unit" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="addr:state" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="toilets:disposal" type="string"></SimpleField>
+	<SimpleField name="male" type="string"></SimpleField>
+	<SimpleField name="female" type="string"></SimpleField>
+</Schema>
+<Schema name="roads" id="roads">
+	<SimpleField name="osm_id" type="float"></SimpleField>
+	<SimpleField name="access" type="string"></SimpleField>
+	<SimpleField name="highway" type="string"></SimpleField>
+	<SimpleField name="tracktype" type="string"></SimpleField>
+	<SimpleField name="surface" type="string"></SimpleField>
+	<SimpleField name="oneway" type="string"></SimpleField>
+	<SimpleField name="service" type="string"></SimpleField>
+	<SimpleField name="bicycle" type="string"></SimpleField>
+	<SimpleField name="ref" type="string"></SimpleField>
+	<SimpleField name="foot" type="string"></SimpleField>
+	<SimpleField name="hgv" type="string"></SimpleField>
+	<SimpleField name="maxspeed" type="string"></SimpleField>
+	<SimpleField name="lanes" type="string"></SimpleField>
+	<SimpleField name="NHS" type="string"></SimpleField>
+</Schema>
+<Schema name="amenity_points" id="amenity_points">
+	<SimpleField name="osm_id" type="float"></SimpleField>
+	<SimpleField name="tourism" type="string"></SimpleField>
+	<SimpleField name="shop" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="leisure" type="string"></SimpleField>
+	<SimpleField name="information" type="string"></SimpleField>
+	<SimpleField name="board_type" type="string"></SimpleField>
+	<SimpleField name="self_service" type="string"></SimpleField>
+	<SimpleField name="addr:unit" type="string"></SimpleField>
+	<SimpleField name="reference" type="string"></SimpleField>
+</Schema>
+<Schema name="amenity_polygons" id="amenity_polygons">
+	<SimpleField name="osm_id" type="float"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="access" type="string"></SimpleField>
+	<SimpleField name="building" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="tourism" type="string"></SimpleField>
+	<SimpleField name="surface" type="string"></SimpleField>
+	<SimpleField name="leisure" type="string"></SimpleField>
+	<SimpleField name="toilets:disposal" type="string"></SimpleField>
+	<SimpleField name="fee" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="tents" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:state" type="string"></SimpleField>
+	<SimpleField name="caravans" type="string"></SimpleField>
+	<SimpleField name="static_caravans" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="reference" type="string"></SimpleField>
+	<SimpleField name="male" type="string"></SimpleField>
+	<SimpleField name="female" type="string"></SimpleField>
+</Schema>
+<Schema name="forests" id="forests">
+	<SimpleField name="osm_id" type="float"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+</Schema>
+<Schema name="landcover" id="landcover">
+	<SimpleField name="osm_id" type="float"></SimpleField>
+	<SimpleField name="landuse" type="string"></SimpleField>
+	<SimpleField name="addr:housenumber" type="string"></SimpleField>
+	<SimpleField name="access" type="string"></SimpleField>
+	<SimpleField name="tourism" type="string"></SimpleField>
+	<SimpleField name="amenity" type="string"></SimpleField>
+	<SimpleField name="surface" type="string"></SimpleField>
+	<SimpleField name="sport" type="string"></SimpleField>
+	<SimpleField name="leisure" type="string"></SimpleField>
+	<SimpleField name="fee" type="string"></SimpleField>
+	<SimpleField name="addr:city" type="string"></SimpleField>
+	<SimpleField name="tents" type="string"></SimpleField>
+	<SimpleField name="addr:postcode" type="string"></SimpleField>
+	<SimpleField name="addr:state" type="string"></SimpleField>
+	<SimpleField name="caravans" type="string"></SimpleField>
+	<SimpleField name="static_caravans" type="string"></SimpleField>
+	<SimpleField name="addr:street" type="string"></SimpleField>
+	<SimpleField name="reference" type="string"></SimpleField>
+	<SimpleField name="meadow" type="string"></SimpleField>
+</Schema>
+</Document></kml>
